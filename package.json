@@ -1,0 +1,31 @@
+{
+  "name": "nuwe-discordqr",
+  "version": "1.0.0",
+  "description": "Discord BOT with QR generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlbertoLinde/NUWE-DiscordQR.git"
+  },
+  "keywords": [
+    "discord.js",
+    "bot",
+    "qr"
+  ],
+  "author": "Alberto Linde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlbertoLinde/NUWE-DiscordQR/issues"
+  },
+  "homepage": "https://github.com/AlbertoLinde/NUWE-DiscordQR#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  },
+  "dependencies": {
+    "discord.js": "^13.0.0",
+    "dotenv": "^10.0.0"
+  }
+}
