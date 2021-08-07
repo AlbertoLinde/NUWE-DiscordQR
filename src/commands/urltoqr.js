@@ -16,7 +16,7 @@ const COLORS = {
 };
 
 module.exports = {
-	name: 'urltoqr',
+	name: 'qrurl',
 	description: 'Convert a URL to QR',
 	execute(message, args) {
 		if (utils.isUrl(args[0])) {
