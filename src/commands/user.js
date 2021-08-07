@@ -22,7 +22,7 @@ module.exports = {
     },
     generateQRCode(message, args) {
 
-        let colorSelected = COLORS[args[0].toUpperCase()] || COLORS.BLACK;
+        let colorSelected = COLORS[args[0]?.toUpperCase()] || COLORS.BLACK;
         let userName = `${message.author.username}#${message.author.discriminator}`
 
         QRCode.toDataURL(userName, {

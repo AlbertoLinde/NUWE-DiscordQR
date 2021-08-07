@@ -18,7 +18,10 @@ module.exports = {
                 { name: '**Command**: `!qrurl [url] [color]`', value: 'This command create a QR code of the URL that has been entered also check the URL is valid.\n**Example**: `!qr https://www.google.com blue`' },
                 { name: '**Command**: `!user [color]`', value: 'Create a QR code with the username.\n**Example**: `!user blue`' },
                 { name: '**Command**: `!help`', value: 'Show all the commands availables.\n**Example**: `!help`' }
-            ).addField('BOT Created by Alberto Linde', 'https://github.com/AlbertoLinde/NUWE-DiscordQR')
+            )
+            .addField('Colors Available', '[ Red, Blue, Orange, Green, Black ]')
+            .addField('BOT Created by Alberto Linde', 'https://github.com/AlbertoLinde/NUWE-DiscordQR')
+
 
         message.author.send(embed);
         message.channel.send(embed);

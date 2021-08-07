@@ -27,7 +27,7 @@ module.exports = {
 	},
 	generateQRCode(message, args) {
 
-		let colorSelected = COLORS[args[1]] || COLORS.BLACK;
+		let colorSelected = COLORS[args[1]?.toUpperCase()] || COLORS.BLACK;
 
 		QRCode.toDataURL(args[0], {
 			color: {
